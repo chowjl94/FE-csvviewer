@@ -1,8 +1,8 @@
 # Set up instructions
 
-Follow .env.example to set up env variables
-To run local for development use npm run dev
-To run build use npm run build and then npm run preview to view build
+- Follow .env.example to set up env variables
+- To run local for development use npm run dev
+- To run build use npm run build and then npm run preview to view build
 
 
 
