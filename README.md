@@ -1,3 +1,16 @@
+# Set up instructions
+
+Follow .env.example to set up env variables
+To run local for development use npm run dev
+To run build use npm run build and then npm run preview to view build
+
+
+
+# Extra information
+- USER uploads file to s3 and gets storred in s3
+- Clinet will get the stored url and sign it
+- Signed url will then be loaded as csv and rendered on client
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
