@@ -1,0 +1,66 @@
+
+.file-input-wrapper {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-drop-area {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #f9fafb;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.file-drop-area .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #3b82f6;
+}
+
+.file-drop-area p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.file-actions {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.5rem;
+  justify-content: space-between;
+
+}
+
+.file-actions .button {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #ef4444;
+}
+
+.file-actions .button:hover {
+  background-color: #ef4444;
+}
+
+.file-actions .button:focus {
+  outline: none;
+}
+
+.file-actions .button .icon {
+  color: white;
+}
+
+.file-actions .button .arrow {
+  margin-left: 0.25rem;
+}
