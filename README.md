@@ -1,6 +1,7 @@
 # Set up instructions
 - Make sure to run BE micro service before running FE micro service
 - Follow .env.example to set up env variables
+- npm install 
 - To run local for development use npm run dev
 - To run build use npm run build and then npm run preview to view build
 
