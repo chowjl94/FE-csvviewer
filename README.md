@@ -6,7 +6,6 @@
 - To run build use npm run build and then npm run preview to view build
 
 
-
 # Extra information
 - USER uploads file to s3 and gets storred in s3
 - Clinet will get the stored url and sign it
