@@ -1,5 +1,5 @@
 # Set up instructions
-- Make sure to run BE micro service before running FE micro service
+- Make sure to run BE micro service[BEmicroservice](https://github.com/chowjl94/BE-csvviewer/blob/main/readme.md) before running FE micro service
 - Follow .env.example to set up env variables
 - npm install 
 - To run local for development use npm run dev
