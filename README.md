@@ -1,10 +1,15 @@
 # Set up instructions
 - Make sure to run BE micro service[BEmicroservice](https://github.com/chowjl94/BE-csvviewer/blob/main/readme.md) before running FE micro service
 - Follow .env.example to set up env variables
-- npm install 
-- To run local for development use npm run dev
-- To run build use npm run build and then npm run preview to view build
 
+# Development
+- npm install 
+- npm run dev
+
+# Non - development
+- npm install 
+- npm run build
+- npm run preview
 
 # Extra information
 - USER uploads file to s3 and gets storred in s3
