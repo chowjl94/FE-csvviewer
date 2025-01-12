@@ -1,3 +1,21 @@
+# Set up instructions
+- Make sure to run BE micro service[BEmicroservice](https://github.com/chowjl94/BE-csvviewer/blob/main/readme.md) before running FE micro service
+- Follow .env.example to set up env variables
+
+# Development
+- npm install 
+- npm run dev
+
+# Non - development
+- npm install 
+- npm run build
+- npm run preview
+
+# Extra information
+- USER uploads file to s3 and gets storred in s3
+- Clinet will get the stored url and sign it
+- Signed url will then be loaded as csv and rendered on client
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
