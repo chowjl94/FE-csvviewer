@@ -7,9 +7,9 @@
 - npm run dev
 
 # Non - development
-- npm install 
-- npm run build
-- npm run preview
+- docker-compose build
+- docker-compose up
+
 
 # Extra information
 - USER uploads file to s3 and gets storred in s3
